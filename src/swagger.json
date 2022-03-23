@@ -1,0 +1,23 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Test service",
+        "description": "",
+        "version": "1.0"
+    },
+    "produces": ["application/json"],
+    "paths": {
+        "/sayHello": {
+            "post": {
+                "operationId": "sayHello",
+                "tags": ["/sayHello"],
+                "description": "Testing hello world!!",
+                "parameters": [{
+                    "name": "content",
+                    "in": "body"
+                }],
+                "responses": {}
+            }
+        }
+    }
+}
